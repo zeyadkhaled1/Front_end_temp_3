@@ -187,6 +187,10 @@ ul {
 
 }
 
+.header .mega-menu .links li {
+    position: relative;
+}
+
 .header .mega-menu .links li:not(:last-child) {
     position: relative;
     border-bottom: 1px solid #e9e6e6;
@@ -203,7 +207,7 @@ ul {
     position: absolute;
     left: 0;
     top: 0;
-    width: 0px;
+    width: 0;
     height: 100%;
     background-color: #fafafa;
     z-index: -1;
